@@ -128,6 +128,60 @@ img .carouselImg {
     z-index: -1;
 }
 
+/* 产品列表 */
+.categoryMenu {
+    width: 200px;
+    background-color: #e2e2e3;
+    margin-left: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.categoryMenu a {
+    color: #000000;
+}
+.categoryMenu a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+.grandChildCategory {
+    width: 800px;
+    height: 510px;
+    background-color: #fff;
+    margin-left: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.grandChildCategory .row {
+    margin: 20px 80px 0 80px;   
+}
+.grandChildCategory .row .divideLine {
+    margin-top: 20px;
+    border-bottom: 1px dashed #e7e7e7;
+}
+.grandChildCategory a {
+    font-size: 14px;
+    color: #999;
+    margin: 8px;
+}
+.grandChildCategory a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+.categoryMenu .childCategory{
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.categoryMenu .childCategory span {
+    margin-right: 10px;
+}
+.categoryMenu .childCategory:hover {
+    background-color: #fff;
+}
 
 /* 页脚 */
 
